@@ -3,3 +3,8 @@ PRINTING TO THE CONSOLE
 print("hello")
 
 in python the spaces are important as they have a meaning as they tell the interpreter where the commands are ending using indentation
+
+
+INPUTS 
+
+input("prompt")
