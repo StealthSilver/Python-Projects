@@ -8,4 +8,4 @@ print("hello \neveryone")
 
 # string concatination
 
-print("hello" + "pogo")
+print("hello" + " " + "pogo")
