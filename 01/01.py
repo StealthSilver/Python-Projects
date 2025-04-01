@@ -1,6 +1,7 @@
-print("enter the name of your birth city")
-city = input()
-print("enter the name of your pet")
-pet = input()
-band_name = city + pet
-print(band_name)
+# printing a string
+
+print("hello")
+
+# printing in a new line
+
+print("hello \neveryone")
