@@ -1,3 +1,7 @@
 # inputing the data
 
-input("what is your name ? \n")
+name = input("what is your name ? \n")
+
+# printing the input data
+
+print("hello" + " " + name)
