@@ -8,3 +8,7 @@ in python the spaces are important as they have a meaning as they tell the inter
 INPUTS 
 
 input("prompt")
+
+COMMENTS IN PYTHON 
+
+#this is the way to write the comment in python
