@@ -1,14 +1,20 @@
-PRINTING TO THE CONSOLE
+PRINTING TO THE CONSOLE (01.py)
 
 print("hello")
 
 in python the spaces are important as they have a meaning as they tell the interpreter where the commands are ending using indentation
 
-
-INPUTS 
+INPUTS (02.py , 03.py)
 
 input("prompt")
 
 COMMENTS IN PYTHON 
 
 #this is the way to write the comment in python
+
+NAMING VARIABLES 
+
+1. name of the variable must be one single unit 
+2. for seperating use _ 
+3. dont use numbers in the begining of variable 
+4. dont use symbols in the variable names
