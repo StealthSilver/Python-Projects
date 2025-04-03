@@ -20,3 +20,6 @@ print(5**4)
 
 # Modulus
 print(8%3)
+
+# the order of operations use the BODMAS rule and the calculations happen from left to right
+print(3*3+3/3-3)
