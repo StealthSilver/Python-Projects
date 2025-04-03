@@ -1,0 +1,6 @@
+DATA TYPES
+
+strings = "pogo"
+int = 12
+boolean = true / false 
+float = 3.145
