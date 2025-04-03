@@ -1,9 +1,9 @@
 # BMI Calculator
 
-height = 185
-weight = 90
+height = 1.88
+weight = 85
 
 BMI = weight / (height **2)
 
-# rounding off the BMI
-print(round(BMI))
+# rounding off the BMI to two digits
+print(round(BMI, 2))
