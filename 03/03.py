@@ -1,7 +1,7 @@
 # nested conditional statement
 
-height = int(input("enter your height"))
-age = int(input("enter your age"))
+height = int(input("enter your height in cm : "))
+age = int(input("enter your age : "))
 
 if height >= 130:
     if age <= 12:
