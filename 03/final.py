@@ -22,7 +22,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/[TomekK]
 ******************************************************************************* ''')
 
-print("Welcome to the treasure Island \n Ypur mission is to find the treasure")
+print("Welcome to the treasure Island \nYour mission is to find the treasure")
 
 side = input("choose a side you wanna go L (left) , R (right) : ")
 
