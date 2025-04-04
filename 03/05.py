@@ -8,8 +8,6 @@ cheese = input("do you want extra cheese on your pizza? Y , N : ")
 
 bill = 0
 
-
-
 if size == 'S':
     bill += 15
 elif size == 'M':
