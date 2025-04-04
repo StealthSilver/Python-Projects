@@ -4,3 +4,11 @@ if condition:
     do this
 else:
     do this
+
+COMPARISION OPERATORS
+
+> -> greater than 
+< -> lesser than
+>= -> greater than or equal to
+<= -> lesser than or equal to
+== -> is equal to
