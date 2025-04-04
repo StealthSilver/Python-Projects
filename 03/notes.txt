@@ -12,3 +12,10 @@ COMPARISION OPERATORS
 >= -> greater than or equal to
 <= -> lesser than or equal to
 == -> is equal to
+
+
+LOGICAL OPERATORS 
+
+and
+or
+not
