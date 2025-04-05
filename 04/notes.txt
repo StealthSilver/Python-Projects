@@ -4,3 +4,6 @@ python uses the merseen twister for random number generation
 
 to get the random numbers we can use the random module
 
+MODULE 
+
+a module is a piece of code responsible for different functionalities
