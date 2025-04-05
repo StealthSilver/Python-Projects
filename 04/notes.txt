@@ -1,0 +1,6 @@
+RANDOMIZATION
+
+python uses the merseen twister for random number generation
+
+to get the random numbers we can use the random module
+
