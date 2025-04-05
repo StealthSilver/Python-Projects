@@ -1,6 +1,5 @@
 # Function
 
-
 # defining the function
 def my_function():
     print("Hello")
