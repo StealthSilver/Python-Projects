@@ -3,6 +3,7 @@
 import random 
 
 friends = ["Pogo" , "Tom" , "Mony" , "Jaadu"]
+print(len(friends))
 
 num = random.randint(0,3)
 
