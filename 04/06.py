@@ -3,6 +3,8 @@
 import random 
 
 friends = ["Pogo" , "Tom" , "Mony" , "Jaadu"]
+
+# getting the length of the list
 print(len(friends))
 
 num = random.randint(0,3)
