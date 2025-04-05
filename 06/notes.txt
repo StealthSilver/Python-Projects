@@ -1,1 +1,3 @@
 FUNCTIONS
+
+they are the reusable pieces of code

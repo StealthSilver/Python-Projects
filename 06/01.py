@@ -9,4 +9,4 @@ def my_function():
 
 # calling the function
 
-my_function
+my_function()
