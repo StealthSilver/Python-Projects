@@ -28,6 +28,8 @@ while not game_over:
         if letter == guess:
             display += letter
             correct_letters.append(guess)
+        elif letter in correct_letters:
+            display += letter
         else: 
             display += "_"
 
