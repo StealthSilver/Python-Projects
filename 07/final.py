@@ -17,7 +17,7 @@ print(placeholder)
 game_over = False 
 
 while not game_over:
-    
+
     guess = input("Guess a letter : ").upper()
 
     display = ""
@@ -29,3 +29,7 @@ while not game_over:
             display += "_"
 
     print(display)
+
+    if "_" not in display:
+        game_over = True 
+        print("You won")
