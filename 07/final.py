@@ -1,6 +1,8 @@
+# Hangman game
+
 import random
 
-fruits = ['APPLE' , 'BANANA' , 'ORANGE' , 'MANGO' , 'GRAPES']
+fruits = ['APPLE' , 'BANANA' , 'ORANGE' , 'MANGO' , 'GRAPES' , 'PINEAPPLE' , "STRAWBERRY"]
 
 chosen_word = random.choice(fruits)
 print(chosen_word)
@@ -12,14 +14,18 @@ for position in range(len(chosen_word)):
 
 print(placeholder)
 
-guess = input("Guess a letter : ").upper()
+game_over = False 
 
-display = ""
+while not game_over:
+    
+    guess = input("Guess a letter : ").upper()
 
-for letter in chosen_word:
-    if letter == guess:
-        display += letter
-    else: 
-        display += "_"
+    display = ""
 
-print(display)
+    for letter in chosen_word:
+        if letter == guess:
+            display += letter
+        else: 
+            display += "_"
+
+    print(display)
