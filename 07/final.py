@@ -2,6 +2,8 @@
 
 import random
 
+lives = 6
+
 fruits = ['APPLE' , 'BANANA' , 'ORANGE' , 'MANGO' , 'GRAPES' , 'PINEAPPLE' , "STRAWBERRY"]
 
 chosen_word = random.choice(fruits)
@@ -34,6 +36,12 @@ while not game_over:
             display += "_"
 
     print(display)
+
+    if guess not in chosen_word:
+        lives -= 1
+        if lives == 0:
+            game_over = True 
+            print("Game over")
 
     if "_" not in display:
         game_over = True 
