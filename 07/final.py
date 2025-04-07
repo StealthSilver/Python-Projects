@@ -1,49 +1,44 @@
-# Hangman game
-
 import random
 
-lives = 6
-
-# we can import a custom word list for more words
-fruits = ['APPLE' , 'BANANA' , 'ORANGE' , 'MANGO' , 'GRAPES' , 'PINEAPPLE' , "STRAWBERRY"]
-
+# List of possible words
+fruits = ['APPLE', 'BANANA', 'ORANGE', 'MANGO', 'GRAPES', 'PINEAPPLE', 'STRAWBERRY']
 chosen_word = random.choice(fruits)
 
+lives = 6
+guessed_letters = set()
+correct_letters = set()
+word_display = ['_' for _ in chosen_word]
 
-placeholder = ""
+print("Welcome to Hangman!")
+print(" ".join(word_display))
 
-for position in range(len(chosen_word)):
-    placeholder += "_"
 
-print(placeholder)
+while lives > 0 and '_' in word_display:
+    guess = input("Guess a letter: ").upper()
 
-game_over = False 
+    if not guess.isalpha() or len(guess) != 1:
+        print("Please enter a single valid alphabet letter.")
+        continue
 
-correct_letters = []
+    if guess in guessed_letters:
+        print(f"You've already guessed '{guess}'. Try another letter.")
+        continue
 
-while not game_over:
+    guessed_letters.add(guess)
 
-    guess = input("Guess a letter : ").upper()
-
-    display = ""
-
-    for letter in chosen_word:
-        if letter == guess:
-            display += letter
-            correct_letters.append(guess)
-        elif letter in correct_letters:
-            display += letter
-        else: 
-            display += "_"
-
-    print(display)
-
-    if guess not in chosen_word:
+    if guess in chosen_word:
+        for index, letter in enumerate(chosen_word):
+            if letter == guess:
+                word_display[index] = guess
+        print("Correct!")
+    else:
         lives -= 1
-        if lives == 0:
-            game_over = True 
-            print("Game over")
+        print(f"Wrong guess! You have {lives} {'life' if lives == 1 else 'lives'} left.")
 
-    if "_" not in display:
-        game_over = True 
-        print("You won")
+    print(" ".join(word_display))
+
+
+if '_' not in word_display:
+    print("Congratulations! You guessed the word!")
+else:
+    print(f"Game Over! The word was '{chosen_word}'.")
