@@ -4,6 +4,7 @@ import random
 
 lives = 6
 
+# we can import a custom word list for more words
 fruits = ['APPLE' , 'BANANA' , 'ORANGE' , 'MANGO' , 'GRAPES' , 'PINEAPPLE' , "STRAWBERRY"]
 
 chosen_word = random.choice(fruits)
