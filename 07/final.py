@@ -16,6 +16,8 @@ print(placeholder)
 
 game_over = False 
 
+correct_letters = []
+
 while not game_over:
 
     guess = input("Guess a letter : ").upper()
@@ -25,6 +27,7 @@ while not game_over:
     for letter in chosen_word:
         if letter == guess:
             display += letter
+            correct_letters.append(guess)
         else: 
             display += "_"
 
