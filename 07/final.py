@@ -7,7 +7,7 @@ lives = 6
 fruits = ['APPLE' , 'BANANA' , 'ORANGE' , 'MANGO' , 'GRAPES' , 'PINEAPPLE' , "STRAWBERRY"]
 
 chosen_word = random.choice(fruits)
-print(chosen_word)
+
 
 placeholder = ""
 
