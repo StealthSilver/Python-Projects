@@ -2,19 +2,8 @@
 
 bids = {}
 
-continue_bidding = True
-
-while continue_bidding:
-    name = input("Enter your name : ")
-    price = int(input("Enter the bid price : $ "))
-    bids[name] = price 
-    should_continue = input("Are there any bidders ? Type 'yes' or 'no' : ").lower
-    if should_continue == "no":
-
-
-
 def find_highest_bidder(bidding_dictionary):
-
+    winner = ''
     highest_bid = 0
     for bidder in bidding_dictionary:
         bid_amount = bidding_dictionary[bidder]
@@ -24,5 +13,18 @@ def find_highest_bidder(bidding_dictionary):
     
     print(f"the winner is {winner} with a bid of ${highest_bid}.")
 
-# for clearing the screen
-print("\n"*100)
+continue_bidding = True
+
+while continue_bidding:
+    name = input("Enter your name : ")
+    price = int(input("Enter the bid price : $ "))
+    bids[name] = price 
+    should_continue = input("Are there any bidders ? Type 'yes' or 'no' : ").lower
+    if should_continue == "no":
+        continue_bidding = False
+        find_highest_bidder(bids)
+    elif should_continue == "yes":
+        # for clearing the screen
+        print("\n"*100)
+
+
