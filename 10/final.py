@@ -41,3 +41,5 @@ while should_accumulate:
 
     if choice == 'y':
         n1 = answer
+    else:
+        should_accumulate = False
