@@ -45,6 +45,7 @@ def calculator():
         else:
             should_accumulate = False
             print("\n" * 30)
+            calculator()
 
 
 calculator()
