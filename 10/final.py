@@ -19,6 +19,9 @@ operations = {
     '/' : div,
 }
 
-user_opn = input("enter the operation you want to perform")
+n1 = input("what is the first number : ")
+for symbol in operations:
+    print(symbol)
+user_opn = input("enter the operation you want to perform : ")
 
 print(operations["*"](4,8))
