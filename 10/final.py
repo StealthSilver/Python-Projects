@@ -28,4 +28,5 @@ user_opn = input("enter the operation you want to perform : ")
 
 n2 = float(input("what is the next number : "))
 
-print(operations[user_opn](n1 , n2))
+answer = operations[user_opn](n1 , n2)
+print(f"{n1} {user_opn} {n2} = {answer}")
