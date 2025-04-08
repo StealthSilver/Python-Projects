@@ -1,4 +1,4 @@
-# Docstrings -> they are used to write a brief about hte function you have defined
+# Docstrings -> they are used to write a brief about the function you have defined
 
 
 def greet(first_name , last_name):
