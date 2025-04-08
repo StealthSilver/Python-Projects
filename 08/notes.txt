@@ -1,2 +1,4 @@
 FUNCTIONS WITH PARAMETERS
 
+when the function is defined the parameter name is specified
+when the function is called then the variable is passed as an argument to the parameterized function
