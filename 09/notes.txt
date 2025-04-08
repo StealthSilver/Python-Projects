@@ -1,1 +1,3 @@
 DICTIONARIES
+
+they allow to group data and store related info together
