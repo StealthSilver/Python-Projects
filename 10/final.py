@@ -18,3 +18,5 @@ operations = {
     '*' : mul,
     '/' : div,
 }
+
+operations["*"](4,8)
