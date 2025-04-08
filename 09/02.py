@@ -7,7 +7,7 @@ user = {
     "Driving" : True
 }
 
-# prints the key
+
 for thing in user:
     print(thing)
     print(user[thing])
