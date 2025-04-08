@@ -14,4 +14,4 @@ print(travel_log["France"][1])
 
 nested_list = ["A" , "B" , ["C" , "D"]]
 
-print(nested_list[1])
+print(nested_list[2][1])
