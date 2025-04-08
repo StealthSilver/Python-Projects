@@ -14,6 +14,8 @@ user["Education"] = "A"
 
 print(user)
 
+
+# clearing an dictionary
 fruits = {
     "first" : "Apple",
     "second" : "Pomogranate"
