@@ -30,3 +30,8 @@ n2 = float(input("what is the next number : "))
 
 answer = operations[user_opn](n1 , n2)
 print(f"{n1} {user_opn} {n2} = {answer}")
+
+choice = input(f"type 'y'to continue calculating with {answer} , or type 'n' to start a new calculation : ")
+
+if choice == 'y':
+    n1 = answer
