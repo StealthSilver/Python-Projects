@@ -19,28 +19,29 @@ operations = {
     '/' : div,
 }
 
+def calculator():
 
-should_accumulate = True
+    should_accumulate = True
 
-n1 = float(input("what is the first number : "))
+    n1 = float(input("what is the first number : "))
 
-while should_accumulate:
-   
+    while should_accumulate:
+    
 
-    for symbol in operations:
-        print(symbol)
+        for symbol in operations:
+            print(symbol)
 
-    user_opn = input("enter the operation you want to perform : ")
+        user_opn = input("enter the operation you want to perform : ")
 
-    n2 = float(input("what is the next number : "))
+        n2 = float(input("what is the next number : "))
 
-    answer = operations[user_opn](n1 , n2)
-    print(f"{n1} {user_opn} {n2} = {answer}")
+        answer = operations[user_opn](n1 , n2)
+        print(f"{n1} {user_opn} {n2} = {answer}")
 
-    choice = input(f"type 'y'to continue calculating with {answer} , or type 'n' to start a new calculation : ")
+        choice = input(f"type 'y'to continue calculating with {answer} , or type 'n' to start a new calculation : ")
 
-    if choice == 'y':
-        n1 = answer
-    else:
-        should_accumulate = False
-        print("\n" * 30)
+        if choice == 'y':
+            n1 = answer
+        else:
+            should_accumulate = False
+            print("\n" * 30)
