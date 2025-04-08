@@ -27,3 +27,5 @@ nested_dict = {
     },
 
 }
+
+print(nested_dict["Germany"]["cities"][0])
