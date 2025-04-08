@@ -9,3 +9,7 @@ user = {
 
 print(user)
 print(user["Name"])
+
+user["Education"] = "A"
+
+print(user)
