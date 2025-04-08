@@ -10,4 +10,4 @@ def calculate_love_score(name1 , name2):
     love_score = int(str(true_count) + str(love_count))
     print(love_score)
     
-calculate_love_score("Kanye West", "Kim Kardashian")
+calculate_love_score("tillu", "ollie")
