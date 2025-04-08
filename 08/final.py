@@ -13,7 +13,7 @@ def encrypt(text, shift):
             new_position = position + shift
             encrypted_text += alphabet[new_position]
         else:
-            # Keep spaces and special characters unchanged
+            
             encrypted_text += letter
     print(f"Encrypted message: {encrypted_text}")
 
