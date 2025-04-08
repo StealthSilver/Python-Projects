@@ -27,3 +27,5 @@ for symbol in operations:
 user_opn = input("enter the operation you want to perform : ")
 
 n2 = float(input("what is the next numebr"))
+
+print(operations[user_opn](n1 , n2))
