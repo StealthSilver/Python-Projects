@@ -19,19 +19,25 @@ operations = {
     '/' : div,
 }
 
+
+should_accumulate = True
+
 n1 = float(input("what is the first number : "))
 
-for symbol in operations:
-    print(symbol)
+while should_accumulate:
+   
 
-user_opn = input("enter the operation you want to perform : ")
+    for symbol in operations:
+        print(symbol)
 
-n2 = float(input("what is the next number : "))
+    user_opn = input("enter the operation you want to perform : ")
 
-answer = operations[user_opn](n1 , n2)
-print(f"{n1} {user_opn} {n2} = {answer}")
+    n2 = float(input("what is the next number : "))
 
-choice = input(f"type 'y'to continue calculating with {answer} , or type 'n' to start a new calculation : ")
+    answer = operations[user_opn](n1 , n2)
+    print(f"{n1} {user_opn} {n2} = {answer}")
 
-if choice == 'y':
-    n1 = answer
+    choice = input(f"type 'y'to continue calculating with {answer} , or type 'n' to start a new calculation : ")
+
+    if choice == 'y':
+        n1 = answer
