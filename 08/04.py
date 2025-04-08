@@ -5,4 +5,4 @@ def greet(name , location):
     print(f"how is is there in {location}")
 
 # positional arguments
-greet("pogo" , "goa")
+greet(name = "pogo" , location = "goa")
