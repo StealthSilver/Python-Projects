@@ -43,3 +43,4 @@ while should_accumulate:
         n1 = answer
     else:
         should_accumulate = False
+        print("\n" * 30)
