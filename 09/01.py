@@ -13,3 +13,13 @@ print(user["Name"])
 user["Education"] = "A"
 
 print(user)
+
+fruits = {
+    "first" : "Apple",
+    "second" : "Pomogranate"
+}
+
+print(fruits)
+
+fruits = {}
+print(fruits)
