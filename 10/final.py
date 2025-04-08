@@ -19,4 +19,6 @@ operations = {
     '/' : div,
 }
 
-operations["*"](4,8)
+user_opn = input("enter the operation you want to perform")
+
+print(operations["*"](4,8))
