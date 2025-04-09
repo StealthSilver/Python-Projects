@@ -9,5 +9,11 @@ print(initial_cards)
 
 score = sum(initial_cards)
 
-if user == 'y':
-    print(f"your cards: {initial_cards}, current score: {score}")
+
+def blackjack_game():
+    if user == 'y':
+        print(f"your cards: {initial_cards}, current score: {score}")
+    else:
+        return 
+    
+blackjack_game()
