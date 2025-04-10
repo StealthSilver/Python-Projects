@@ -1,3 +1,9 @@
 Debugging
-
 grace hopper found a literal bug in the relay
+
+Steps for debugging 
+
+1. describe the problem
+2. reproduce the bug 
+3. play computer and evaluate each line
+4.
