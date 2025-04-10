@@ -1,4 +1,4 @@
-data = [
+game_data = [
     {
         "name": "Cristiano Ronaldo",
         "followers": "634,000,000",
