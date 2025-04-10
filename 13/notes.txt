@@ -8,3 +8,4 @@ Steps for debugging
 3. play computer and evaluate each line
 4. fix the errors given by the editor
 5. use the print statement
+6. use the decoder
