@@ -1,3 +1,5 @@
+# python does not have block scope
+
 player_health = 90
 
 def game():
