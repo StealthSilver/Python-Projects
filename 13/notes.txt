@@ -7,3 +7,4 @@ Steps for debugging
 2. reproduce the bug 
 3. play computer and evaluate each line
 4. fix the errors given by the editor
+5. 
