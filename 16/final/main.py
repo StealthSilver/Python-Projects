@@ -13,4 +13,13 @@ coffee_maker.report()
 
 
 while is_on:
-
+    options = menu.get_items()
+    choice = input(f"What would you like ? ({options}): ")
+    if choice == "off":
+        is_one = False
+    elif choice == "report":
+        coffee_maker.report()
+        money_machine.report()
+    else:
+        drink = menu.find_drink(choice)
+        print(drink)
