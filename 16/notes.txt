@@ -1,4 +1,7 @@
 OBJECT ORIENTED PROGRAMMING 
 
 procedural or functional programming may get complicated time to time 
-procedurl programming has attributed (variables) and methods (functions)
+
+object has attributes (variables) and methods (functions)
+
+the class is hte blueprint of the object and we can create several objects from the class
