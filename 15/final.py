@@ -1,33 +1,38 @@
 # Coffee Machine 
 
-Coffee = [
-    {
-        "name" : "Espresso",
-        "price": "$1.50",
-        "water" : "50ml",
-        "coffee" : "18g",
-        "milk":"0ml"
-    }, 
-    {
-        "name" : "Latte",
-        "price":"$2.50",
-        "water":"200ml",
-        "coffee":"24g",
-        "milk":"150ml"
-    },
-    {
-        "name" : "Cappuccino",
-        "price":"$3.00",
-        "water":"250ml",
-        "coffee":"24g",
-        "milk":"100ml"
+MENU = {
+    "espresso" : {
+            "ingridients" : {    
+        "water" : 50,
+        "coffee" : 18,
+            },
+            "cost" : 1.5
+        },  
+     
+   "latte" : {    
+            "ingridients" : {        
+        "water" : 200,
+        "milk" : 150,
+        "coffee": 24,
+            },
+            "cost" : 2.5
+        },
+         
+   "cappucchino" : {
+            "ingridients" : {
+        "water" : 250,
+        "milk" : 150,
+        "coffee": 24,
+            },
+            "cost" : 3.0
+        }
+}
 
-    }
-]
-    
+
 coins = [
     {"name": "Penny", "price" : "$0.01"},
     {"name" :"Dime" , "price": "$0.10"},
     {"name" : "Nickel", "price" : "$0.05" },
     {"name" : "Quarter" , "price" : "$0.25" }
 ]
+
