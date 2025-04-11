@@ -9,3 +9,6 @@ my_screen  = Screen()
 
 # the canvas height is the attribute
 print(my_screen.canvheight)
+
+# teh exitonclick is the method
+my_screen.exitonclick()
