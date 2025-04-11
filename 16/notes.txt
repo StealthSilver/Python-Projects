@@ -4,4 +4,4 @@ procedural or functional programming may get complicated time to time
 
 object has attributes (variables) and methods (functions)
 
-the class is hte blueprint of the object and we can create several objects from the class
+the class is the blueprint of the object and we can create several objects from the class
