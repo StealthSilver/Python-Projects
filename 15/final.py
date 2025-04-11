@@ -42,3 +42,5 @@ coins = [
     {"name" : "Quarter" , "price" : "$0.25" }
 ]
 
+
+user = input("what would you like? , (espresso/latte/cappuccino):  ")
