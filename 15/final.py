@@ -25,3 +25,6 @@ Coffee = [
     }
 ]
     
+coins = [
+    {"name": "Penny", "price" : "$0.01"},{"name" :"Dime" , "price": "$0.10"},{"name" : "Nickel", "price" : "$0.05" },{"name" : "Quarter" , "price" : "$0.25" }
+]
