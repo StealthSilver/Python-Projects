@@ -46,7 +46,8 @@ resources = {
 }
 
 def is_resource_sufficient(order_ingridients):
-
+    for item in order_ingridients:
+        order_ingridients[item] >= resources[item]
 
 
 is_on = True
