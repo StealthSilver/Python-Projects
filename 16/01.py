@@ -1,3 +1,5 @@
+# Creating objects
+
 from turtle import Turtle , Screen
 
 # constructing the object and naming it timmy 
@@ -5,6 +7,7 @@ timmy = Turtle()
 print(timmy)
 
 timmy.shape("turtle")
+timmy.color("blue")
 
 # screen is an object
 my_screen  = Screen()
