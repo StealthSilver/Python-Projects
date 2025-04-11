@@ -42,5 +42,9 @@ coins = [
     {"name" : "Quarter" , "price" : "$0.25" }
 ]
 
-while True:
+is_on = True
+
+while is_on:
     choice = input("what would you like? , (espresso/latte/cappuccino):  ")
+    if choice == "off":
+        is_on = False
