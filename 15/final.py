@@ -47,8 +47,10 @@ resources = {
 
 def is_resource_sufficient(order_ingridients):
     for item in order_ingridients:
-        order_ingridients[item] >= resources[item]
-
+       if order_ingridients[item] >= resources[item]:
+           print(f"sorry there is not enough {item}.")
+           return False 
+    return True
 
 is_on = True
 
