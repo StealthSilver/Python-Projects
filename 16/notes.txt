@@ -1,3 +1,4 @@
 OBJECT ORIENTED PROGRAMMING 
 
 procedural or functional programming may get complicated time to time 
+procedurl programming has attributed (variables) and methods (functions)
