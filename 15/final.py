@@ -28,9 +28,6 @@ MENU = {
         }
 }
 
-
-
-
 coins = [
     {"name": "Penny", "price" : "$0.01"},
     {"name" :"Dime" , "price": "$0.10"},
@@ -51,6 +48,7 @@ def is_resource_sufficient(order_ingridients):
            print(f"sorry there is not enough {item}.")
            return False 
     return True
+
 
 is_on = True
 
