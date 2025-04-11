@@ -7,7 +7,8 @@ timmy = Turtle()
 print(timmy)
 
 timmy.shape("turtle")
-timmy.color("blue")
+timmy.color("DarkCyan")
+timmy.forward(100)
 
 # screen is an object
 my_screen  = Screen()
@@ -17,3 +18,4 @@ print(my_screen.canvheight)
 
 # the exitonclick is the method
 my_screen.exitonclick()
+
