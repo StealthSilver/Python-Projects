@@ -7,10 +7,13 @@ timmy = Turtle()
 timmy.shape("turtle")
 timmy.color("black")
 timmy.speed("fastest") 
-Turtle.colormode(255)
+
 
 screen = Screen()
 screen.setworldcoordinates(-1000, -1000, 1000, 1000)  
+screen.colormode(255)
+
+
 
 def random_color():
     r = random.randint(0,255)
@@ -28,7 +31,5 @@ for _ in range(200):
     timmy.color(random_color())
     timmy.forward(80)
     timmy.setheading(random.choice(directions))
-
-
 
 screen.exitonclick()
