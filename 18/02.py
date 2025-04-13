@@ -17,3 +17,5 @@ from turtle import *
 
 # alias mdules 
 import turtle as t
+
+tommy = t
