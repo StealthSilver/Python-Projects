@@ -18,9 +18,11 @@ def random_color():
     g = random.randint(0,255)
     b = random.randint(0,255)
     # generating the tuple for the random color
-    random_color = (r , g, b)
-    return random_color
+    color = (r , g, b)
+    return color
 
+
+timmy.circle(100)
 
 
 screen.exitonclick()
