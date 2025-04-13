@@ -3,5 +3,5 @@
 class User:
     pass
 
-# constructing an object from the class
+# creating an object from the class
 user_1 = User()
