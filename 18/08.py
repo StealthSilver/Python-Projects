@@ -21,8 +21,11 @@ def random_color():
     color = (r , g, b)
     return color
 
-timmy.color(random_color())
-timmy.circle(100)
+
+for _ in range(100):
+    timmy.color(random_color())
+    timmy.circle(100)
+    timmy.setheading(timmy.heading() + 10)
 
 
 screen.exitonclick()
