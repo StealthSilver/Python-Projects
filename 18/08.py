@@ -9,7 +9,6 @@ timmy.color("black")
 timmy.speed("fastest") 
 
 screen = Screen()
-screen.setworldcoordinates(-1000, -1000, 1000, 1000)  
 screen.colormode(255)
 
 
@@ -29,4 +28,5 @@ def draw_spirograph(size_of_gap):
         timmy.setheading(timmy.heading() + size_of_gap)
 
 
+draw_spirograph(5)
 screen.exitonclick()
