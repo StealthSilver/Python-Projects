@@ -18,4 +18,6 @@ from turtle import *
 # alias mdules 
 import turtle as t
 
-tommy = t
+tommy = t.Turtle()
+
+# installing modules
