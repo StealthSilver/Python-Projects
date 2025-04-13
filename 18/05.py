@@ -1,14 +1,17 @@
-from turtle import Turtle, Screen
+# get a all figure shape
 
+from turtle import Turtle, Screen
 
 timmy = Turtle()
 timmy.shape("turtle")
 timmy.color("black")
+timmy.speed("fastest") 
 
 screen = Screen()
 
 
-screen.setworldcoordinates(-500, -500, 500, 500)  
+screen.setworldcoordinates(-1000, -1000, 1000, 1000)  
+
 
 
 def polygon(sides):
