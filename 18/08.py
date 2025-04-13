@@ -21,7 +21,7 @@ def random_color():
     color = (r , g, b)
     return color
 
-
+timmy.color(random_color())
 timmy.circle(100)
 
 
