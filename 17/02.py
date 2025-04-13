@@ -1,3 +1,5 @@
+# creating attributes for a class
+
 class User:
     
     #constructor
