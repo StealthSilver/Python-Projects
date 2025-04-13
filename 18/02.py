@@ -14,3 +14,6 @@ pop = Turtle()
 
 # importing everything 
 from turtle import *
+
+# alias mdules 
+import turtle as t
