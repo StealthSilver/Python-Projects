@@ -1,1 +1,2 @@
-# creating the hirst painting
+# creating the Hirst painting
+
