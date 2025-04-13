@@ -1,4 +1,4 @@
-# Defining a class named 'User'
+# Defining a class named 'User' and setting the attributes
 class User:
     
     # Constructor method that is called automatically when a new object of the class is created
