@@ -6,12 +6,8 @@ class User:
         self.id = user_id
         self.username = username
 
-user_1 = User("001")
-user_1.id = "001"
-user_1.username = "pogo"
-
+user_1 = User("001" ,"pogo")
 print(user_1.username)
 
-user_2 = User()
-user_2.id = "002"
-user_2.username = "rans"
+user_2 = User("002", "rans")
+print(user_2.id)
