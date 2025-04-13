@@ -23,5 +23,5 @@ tommy = t.Turtle()
 # installing modules
 # pip install heroes
 
-import heroes 
+import heroes  # type: ignore
 print(heroes.gen())
