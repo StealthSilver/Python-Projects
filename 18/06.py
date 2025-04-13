@@ -1,6 +1,7 @@
 # random movement of turtle
 
 from turtle import Turtle, Screen
+import random 
 
 timmy = Turtle()
 timmy.shape("turtle")
@@ -13,7 +14,10 @@ colors = [
     "lime", "maroon", "coral", "indigo", "violet"
 ]
 
+directions = [0 , 90 , 180 , 270]
 
+timmy.forward(30)
+timmy.setheading(random.choice(directions))
 
 screen = Screen()
 screen.exitonclick()
