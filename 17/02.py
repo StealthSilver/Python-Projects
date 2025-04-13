@@ -1,11 +1,12 @@
 class User:
     
     #constructor
-    def __init__(self, user_id):
+    def __init__(self, user_id, username):
         print("new user being created")
         self.id = user_id
+        self.username = username
 
-user_1 = User()
+user_1 = User("001")
 user_1.id = "001"
 user_1.username = "pogo"
 
