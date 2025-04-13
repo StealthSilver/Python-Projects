@@ -22,10 +22,11 @@ def random_color():
     return color
 
 
-for _ in range(100):
-    timmy.color(random_color())
-    timmy.circle(100)
-    timmy.setheading(timmy.heading() + 10)
+def draw_spirograph(size_of_gap):
+    for _ in range(int(360 / size_of_gap)):
+        timmy.color(random_color())
+        timmy.circle(100)
+        timmy.setheading(timmy.heading() + size_of_gap)
 
 
 screen.exitonclick()
