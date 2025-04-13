@@ -1,0 +1,3 @@
+CLASS
+
+the class name must be in pascal case (first letter capitalized)
