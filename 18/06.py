@@ -15,11 +15,13 @@ colors = [
 ]
 
 directions = [0 , 90 , 180 , 270]
-
+timmy.pensize(15)
 
 for _ in range(300):
+    timmy.color(random.choice(colors))
     timmy.forward(30)
     timmy.setheading(random.choice(directions))
+
 
 screen = Screen()
 screen.exitonclick()
