@@ -16,8 +16,10 @@ colors = [
 
 directions = [0 , 90 , 180 , 270]
 
-timmy.forward(30)
-timmy.setheading(random.choice(directions))
+
+for _ in range(300):
+    timmy.forward(30)
+    timmy.setheading(random.choice(directions))
 
 screen = Screen()
 screen.exitonclick()
