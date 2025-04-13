@@ -1,3 +1,8 @@
 CLASS
-
 the class name must be in pascal case (first letter capitalized)
+
+advantages of OOP 
+
+1. modularity
+2. the functionaity is data independent
+3. the core functionality is handled by only one file
