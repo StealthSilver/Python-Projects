@@ -1,4 +1,4 @@
-# creating shapes from turtle
+# creating square from turtle
 
 from turtle import Turtle, Screen
 

@@ -8,9 +8,9 @@ timmy.color("black")
 
 for _ in range(20):
     timmy.forward(10)
-    timmy.color("white")
+    timmy.penup()
     timmy.forward(10)
-    timmy.color("black")
+    timmy.pendown()
 
 screen = Screen()
 screen.exitonclick()
