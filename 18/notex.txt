@@ -6,3 +6,4 @@ as Python 3 is not backwards compatible with Python 2 so venv are used for maint
 tuple ()
 
 they are the data structures that cannot be changed
+they are used to create constant lists
