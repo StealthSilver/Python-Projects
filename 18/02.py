@@ -21,3 +21,7 @@ import turtle as t
 tommy = t.Turtle()
 
 # installing modules
+# pip install heroes
+
+import heroes 
+print(heroes.gen())
