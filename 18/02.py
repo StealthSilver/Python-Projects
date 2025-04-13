@@ -13,5 +13,4 @@ tom = Turtle()
 pop = Turtle()
 
 # importing everything 
-
 from turtle import *
