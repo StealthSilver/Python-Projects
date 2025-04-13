@@ -1,6 +1,6 @@
 # getting the colors for the Hirst painting
 
-import colorgram 
+import colorgram  # type: ignore
 
 rgb_colors = []
 colors = colorgram.extract('demo.jpeg' , 35)
