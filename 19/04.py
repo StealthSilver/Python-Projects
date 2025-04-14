@@ -11,6 +11,6 @@ user_bet = screen.textinput(title = "make your bet" , prompt = "which turtle wil
 
 
 tim = Turtle()
-
+tim.goto(x = -250 , y = -100)
 
 screen.exitonclick()
