@@ -23,7 +23,10 @@ def turn_right():
 
 
 def clear_screen():
-    
+    tim.clear()
+    tim.penup() 
+    tim.home()
+    tim.pendown()
 
 screen.listen()
 
