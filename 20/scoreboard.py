@@ -18,5 +18,6 @@ class Scoreboard(Turtle):
 
     def inrease_score(self):
         self.score += 1
+        self.clear()
         self.update_scoreboard()
         
