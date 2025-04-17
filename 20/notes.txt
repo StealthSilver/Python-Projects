@@ -1,0 +1,1 @@
+INHERITANCE : iheriting attributes and methods from other classes in a new class is called inheritance
