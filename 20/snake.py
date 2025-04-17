@@ -3,6 +3,7 @@ import time
 
 
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
+MOVE_DISTANCE = 20
 
 class Snake:
 
@@ -26,4 +27,4 @@ class Snake:
                 self.segments[seg_num].goto(new_x, new_y)
     
     
-            self.segments[0].forward(20)
+            self.segments[0].forward(MOVE_DISTANCE)

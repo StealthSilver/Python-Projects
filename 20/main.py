@@ -8,21 +8,12 @@ screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
-
-
-segments = []
-
-# initializing the snake
-for position in starting_positions:
+snake = Snake()
     
 game_is_on = True 
 
-# motion of the snake
 while game_is_on:
     screen.update()
     time.sleep(0.1)
     
-   
-    
-
 screen.exitonclick()
