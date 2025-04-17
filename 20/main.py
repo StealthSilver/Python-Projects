@@ -25,5 +25,8 @@ while game_is_on:
     time.sleep(0.1)
     snake.move()
 
+    # detect collision with food
+    
+
 screen.exitonclick()
 
