@@ -4,6 +4,7 @@ screen = Screen()
 screen.title("PONG")
 screen.bgcolor("black")
 screen.setup(width=880 , height=600)
+screen.tracer(0)
 
 paddle = Turtle()
 paddle.shape("Square")
@@ -24,6 +25,12 @@ def go_down():
 
 screen.listen()
 screen.onkey(go_up , "Up")
+screen.onkey(go_down , "Down")
+
+game_is_on = True
+
+while game_is_on:
+    screen.update()
 
 
 screen.exitonclick()
