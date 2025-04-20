@@ -14,7 +14,7 @@ screen.tracer(0)
 r_paddle = Paddle((350 , 0))
 l_paddle = Paddle((-350 , 0))
 ball = Ball()
-Scoreborad = Scoreborad()
+scoreborad = Scoreborad()
 
 screen.listen()
 screen.onkey(r_paddle.go_up , "Up")
@@ -42,10 +42,12 @@ while game_is_on:
 
     if ball.xcor() > 380:
         ball.reset_position()
+        scoreborad.l_point()
 
     # detect L paddle misses 
 
     if ball.ycor() < -380:
         ball.reset_position()
+        scoreborad.r_point()
 
 screen.exitonclick()

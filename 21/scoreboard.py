@@ -9,7 +9,15 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.l_score = 0
         self.r_score = 0
+        
+    def update_scoreboard(self):
+        self.clear()
         self.goto(-100 , 200)
         self.write(self.l_score , align = "center" , font = ("Courier" , 50, "normal"))
         self.goto(100 , 200)
         self.write(self.l_score , align = "center" , font = ("Courier" , 50, "normal"))
+
+
+    def l_point(self):
+        self.l_score += 1
+        self.update_scoreboard
