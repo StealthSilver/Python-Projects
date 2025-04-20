@@ -3,7 +3,7 @@ from turtle import Turtle
 
 class Ball(Turtle):
 
-    def __itit__(self):
+    def __init__(self):
 
         super().__init__()
         self.color("white")
